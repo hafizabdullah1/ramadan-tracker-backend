@@ -62,7 +62,6 @@ class Activity(models.Model):
 
     def save(self, *args, **kwargs):
         # Ramadan Day Calculation
-        print("ramadan_day outside of if", self.ramadan_day)
         if not self.ramadan_day:
             print("ramadan_day in if part", self.ramadan_day)
             self.ramadan_day = (date.today() - self.user.ramadan_start_date).days + 1
