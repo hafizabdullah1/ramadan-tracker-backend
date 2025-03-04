@@ -27,7 +27,7 @@ class Activity(models.Model):
         ("not_given", "Not Given"),
     ]
 
-    TARAWEEH_CHOICES = [2, 4, 6, 8]
+    TARAWEEH_CHOICES = [0, 2, 4, 6, 8]
 
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     date = models.DateField(auto_now_add=True)
