@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-$z+=x^0%y-lzo67)ur!zv(@=lr3-i2=d18_to2yazp74&mb+xa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ramadan-tracker-backend-q875.onrender.com', 'localhost']
 
 
 # Application definition
