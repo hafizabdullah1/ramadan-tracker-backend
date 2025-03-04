@@ -1,1 +1,1 @@
-web: gunicorn marketplace.wsgi:application
+web: gunicorn ramadan-tracker.wsgi:application
